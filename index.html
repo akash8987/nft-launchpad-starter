@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CyberNFT Mint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mint-card">
+        <h1>CYBER <span class="accent">NFT</span></h1>
+        <div class="preview-box">
+            <div class="placeholder-art">?</div>
+        </div>
+        
+        <div class="info-row">
+            <span>Price</span>
+            <span>0.01 ETH</span>
+        </div>
+        <div class="info-row">
+            <span>Supply</span>
+            <span id="supply">Loading...</span>
+        </div>
+
+        <div class="controls">
+            <button id="minus">-</button>
+            <span id="amount">1</span>
+            <button id="plus">+</button>
+        </div>
+
+        <button id="connectBtn" class="action-btn">Connect Wallet</button>
+        <button id="mintBtn" class="action-btn hidden">MINT NOW</button>
+        
+        <p id="status" class="status-text"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.umd.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
