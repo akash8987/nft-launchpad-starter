@@ -1,0 +1,19 @@
+{
+  "name": "nft-launchpad-starter",
+  "version": "1.0.0",
+  "description": "NFT Drop Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "erc721a": "^4.2.3",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+  }
+}
